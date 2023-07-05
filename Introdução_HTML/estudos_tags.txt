@@ -1,0 +1,25 @@
+
+<i>: Itálico
+    Ex.: Uma palavra normal em um artigo.
+
+<em>: Itálico Semântico
+    EX.: Eu 'amoo(Itálico)' lasanha --> Dá ênfase na palavra.
+
+<mark>: Destaque especial(Marcador de texto)
+
+Listas Não Ordenadas:
+    <ul>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
+
+Listas Ordenadas:
+    <ol>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ol>
+
+<a href="" target="_black">...</a>
+    
