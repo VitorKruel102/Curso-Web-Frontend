@@ -27,3 +27,8 @@ h2 {
     margin: 0 auto;
     text-align: center;  
 }
+
+#margin-padding > h2 {
+    padding: 1.6rem;
+    margin: 1.6rem;
+}
