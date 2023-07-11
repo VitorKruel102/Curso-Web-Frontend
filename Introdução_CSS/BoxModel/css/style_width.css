@@ -1,0 +1,29 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+main,
+header {
+    margin: 0 auto;
+    max-width: 80rem;
+}
+
+p {
+    background: #ccc;
+}
+
+h1 {
+    background: orange;
+}
+
+h2 {
+    background: rgba(0, 128, 0, 0.471);
+    width: 20rem;
+    margin: 0 auto;
+    text-align: center;  
+}
