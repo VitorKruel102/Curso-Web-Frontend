@@ -46,3 +46,13 @@ h2 {
     padding: 2rem 1.5rem 2rem 2rem;
 }
 
+.destaque {
+    background: orange;
+}
+
+#border {
+    margin-top: 5rem;
+    border: 1px solid black;
+    border-bottom-color: red;
+    border-bottom-width: 2px; 
+}
