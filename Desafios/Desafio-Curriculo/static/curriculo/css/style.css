@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 8rem;
+    background: rgba(107, 91, 248, 0.381);
+}
+
+#informacoes-pessoais {
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+.estilo-conteudo-h2 {
+    background: rgba(128, 128, 128, 0.337);
+    padding: .8rem;
+    border-bottom: .2rem solid rgb(0, 0, 142);
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin: 0%;
+    color: rgb(0, 0, 142);
+}
+
+.conteudo {
+    margin-bottom: 6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 2rem;
+}
