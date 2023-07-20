@@ -1,0 +1,161 @@
+/* Header */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(153, 152, 152, 0.314);
+    font-size: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Princial do body*/
+body>header {
+    width: 100%;
+    height: 80rem;
+
+    background-image: url('/Estrutura-Semântica/Projeto-1/static/projeto1/img/bg-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 80rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+body>header>nav {
+    width: 100%;
+    padding-right: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+body>header>nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+body>header>nav ul li {
+    width: 10rem;
+    margin: 2rem;
+    padding: 1rem;
+
+    background: rgba(128, 128, 128, 0.597);
+
+    list-style: none;
+    text-align: center;
+
+    border: .2rem solid white;
+
+    transition: all 300ms ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body>header>nav ul li:hover {
+    transform: scale(1.04);
+    background: rgba(128, 128, 128, 0.867);
+}
+
+#titulo {
+    width: 100%;
+    height: 30rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#titulo>h1 {
+    color: white;
+    font-size: 9rem;
+    text-shadow: .2rem .1rem .1rem black;
+}
+
+#sub-titulo {
+    width: 100%;
+    height: 35rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+#sub-titulo>h2 span {
+    padding: 1.5rem;
+    background: black;
+
+    font-size: 2.4rem;
+    color: white;
+
+    border-bottom: .2rem solid rgba(255, 255, 255, 0.795)
+}
+
+/*Main do body*/
+main {
+    max-width: 100rem;
+    height: 90rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main>section {
+    margin: 2rem 0;
+    background: white;
+}
+
+main>section>header {
+    margin: 2rem;
+    padding: 1rem;
+    background: rgba(185, 182, 182, 0.388);
+
+    border-bottom: .1rem solid rgba(57, 53, 53, 0.322);
+}
+
+main>section>article {
+    margin: 2rem;
+    padding: .5rem;
+}
+
+main>section>footer {
+    margin: 2rem;
+    padding: .5rem;
+}
+
+main>section>footer>button {
+    width: 10rem;
+    height: 4rem;
+
+}
+
+/* Footer do bory*/
+body>footer {
+    height: 10rem;
+    background: rgba(123, 121, 121, 0.614);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>footer>p {
+    color: white;
+    text-align: center;
+}
