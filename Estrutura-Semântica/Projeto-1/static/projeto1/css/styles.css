@@ -140,7 +140,8 @@ main>section>footer {
 }
 
 main>section>footer>button {
-    width: 10rem;
+    width: fit-content;
+    padding: 1rem;
     height: 4rem;
 
 }
