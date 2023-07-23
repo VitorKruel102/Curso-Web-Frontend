@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vitor Kruel">
+    <title>Fit-Content</title>
+
+    <style>
+        .container {
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+        }
+
+        .item {
+            background: rgba(137, 43, 226, 0.178);
+            margin-bottom: 10px;
+            padding: 5px;
+
+            /* width: fit-content; */
+        }
+
+        .fit-content .item {
+            width: fit-content;
+        }
+
+        .min-content .item {
+            width: min-content;
+        }
+
+        .max-content .item {
+            width: max-content;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container fit-content">
+        <div class="item">lorem</div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur,
+            ]adipisicing elit. Quae, est?
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Similique repellendus
+            consectetur accusamus cum hic. Possimus
+            adipisci quaerat odit rem aspernatur
+            labore dolorem mollitia, quasi officia.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Maxime ducimus voluptatum
+            consequuntur dolor quasi voluptas est in.
+            Error dolores magnam voluptates quidem placeat
+            incidunt, ea adipisci repudiandae architecto
+            aliquam suscipit nesciunt, optio ipsam maxime
+            similique temporibus repellendus sit accusantium
+            pariatur sequi at! Quam corporis praesentium minima
+            necessitatibus, reiciendis non odio ipsam dignissimos
+            ipsa magni molestiae porro voluptas minus harum
+            perspiciatis, quaerat illum expedita enim officiis ut
+            possimus recusandae et! Similique architecto dolorem
+            nobis a repellat?
+        </div>
+    </div>
+    <div class="container min-content">
+        <div class="item">lorem</div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur,
+            ]adipisicing elit. Quae, est?
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Similique repellendus
+            consectetur accusamus cum hic. Possimus
+            adipisci quaerat odit rem aspernatur
+            labore dolorem mollitia, quasi officia.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Maxime ducimus voluptatum
+            consequuntur dolor quasi voluptas est in.
+            Error dolores magnam voluptates quidem placeat
+            incidunt, ea adipisci repudiandae architecto
+            aliquam suscipit nesciunt, optio ipsam maxime
+            similique temporibus repellendus sit accusantium
+            pariatur sequi at! Quam corporis praesentium minima
+            necessitatibus, reiciendis non odio ipsam dignissimos
+            ipsa magni molestiae porro voluptas minus harum
+            perspiciatis, quaerat illum expedita enim officiis ut
+            possimus recusandae et! Similique architecto dolorem
+            nobis a repellat?
+        </div>
+    </div>
+    <div class="container max-content">
+        <div class="item">lorem</div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur,
+            ]adipisicing elit. Quae, est?
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Similique repellendus
+            consectetur accusamus cum hic. Possimus
+            adipisci quaerat odit rem aspernatur
+            labore dolorem mollitia, quasi officia.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Maxime ducimus voluptatum
+            consequuntur dolor quasi voluptas est in.
+            Error dolores magnam voluptates quidem placeat
+            incidunt, ea adipisci repudiandae architecto
+            aliquam suscipit nesciunt, optio ipsam maxime
+            similique temporibus repellendus sit accusantium
+            pariatur sequi at! Quam corporis praesentium minima
+            necessitatibus, reiciendis non odio ipsam dignissimos
+            ipsa magni molestiae porro voluptas minus harum
+            perspiciatis, quaerat illum expedita enim officiis ut
+            possimus recusandae et! Similique architecto dolorem
+            nobis a repellat?
+        </div>
+    </div>
+</body>
+
+</html>
