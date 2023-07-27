@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vitor Kruel">
+    <title>Cross e Main - axis</title>
+    <style>
+        .flexbox {
+            display: flex;
+            height: 250px;
+            border: 3px solid red;
+            margin-bottom: 16px;
+        }
+
+        .flexbox div {
+            border: 2px solid orange;
+            width: 300px;
+        }
+
+        .flex-container6 {
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .flex-container6 div {
+            flex-basis: 90px;
+            background: orange;
+        }
+
+        .flex-container6 .div2 {
+            flex-grow: 1;
+        }
+
+        .flex-container6 .div4 {
+            flex-grow: 3;
+            /* Cobra o espaço que está sobrando do widht */
+        }
+
+
+        .flex-container7 {
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .flex-container7 div {
+            flex-basis: 200px;
+            background: blue;
+            margin: 0%;
+        }
+
+        .flex-container7 .div1 {
+            flex-shrink: 2;
+            /* Ele elemento ira diminuir 2 vezes mais do que 
+            os outros elementos quando não tiver espaço no site */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexbox flex-container6">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+    <div class="flexbox flex-container7">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+</body>
+
+</html>
