@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url('/Desafios/Desafio-PaginaComCards/static/pagina-com-cards/img/bg-2.jpg');
+    background-repeat:space;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 50px auto 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 72px;
+    color: white;
+    text-shadow: 5px 3px 5px black;
+}
+
+.header p {
+    width: fit-content;
+    padding: 16px;
+    margin: auto;
+    
+    border: 1px solid white;
+
+    text-align: center;
+    background: rgb(78, 73, 73);
+    color: white;
+}
+
+.main-container{
+    max-width: 960px;
+    width: fit-content;
+
+    margin: auto;
+    padding: 16px;
+
+    background: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: centers;
+}
+
+.main-container__itens {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container__itens p{
+    flex-grow: 1;
+}
+
+.main-container__itens p{
+    background: rgb(78, 73, 73);
+    margin: 0%;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
