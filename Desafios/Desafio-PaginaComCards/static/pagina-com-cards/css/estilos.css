@@ -45,8 +45,7 @@ body {
 }
 
 .main-container{
-    max-width: 960px;
-    width: fit-content;
+    width: 860px;
 
     margin: auto;
     padding: 16px;
@@ -55,19 +54,17 @@ body {
 
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    align-items: centers;
+    gap: 16px;
 }
 
 .main-container__itens {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
+    flex-basis: 250px;
+    flex-grow: 1;
 }
 
-.main-container__itens p{
-    flex-grow: 1;
+.main-container__itens img{
+    width: 100%;
+    display: block;
 }
 
 .main-container__itens p{
