@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     background-image: url('/Desafios/Desafio-PaginaComCards/static/pagina-com-cards/img/bg-2.jpg');
-    background-repeat:space;
+    background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
 }
