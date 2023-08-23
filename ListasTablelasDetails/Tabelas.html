@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: rgb(197, 197, 163);
+            border: 2px solid black;
+            padding: 16px;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption> Tabela de preços de curso </caption>
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Curso</th>
+                <th>Investimento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Designer</td>
+                <td>InDesigner</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>InDesigner</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>InDesigner</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Development</td>
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeitos a alterações sem prévio aviso</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
