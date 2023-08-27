@@ -26,3 +26,7 @@ Literais:
         senha: '125#Vitor', 
     };                          // Literal object
 
+Variáveis e Constantes;
+    => var
+    => let   ---> Variável que pode sofre alterações de valores.
+    => const ---> Variável que não sofre alterações
