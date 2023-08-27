@@ -40,3 +40,7 @@ Analisando tipo do dados:
     => typeof nome
     => typeof idade
     => typeof nomes
+
+Transformando strings para number:
+    => parseInt(idade);
+    => parseFloat(idade);
