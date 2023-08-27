@@ -35,3 +35,8 @@ Debugar o JavaScript no console:
     console.log('Mensagem');
     console.error('Mensagem');
     console.warn('Mensagem');
+
+Analisando tipo do dados:
+    => typeof nome
+    => typeof idade
+    => typeof nomes
