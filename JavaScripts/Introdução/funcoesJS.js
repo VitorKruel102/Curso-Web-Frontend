@@ -11,4 +11,24 @@ let log_teste = function(msg){
     console.log('Testando: ', msg)
 };
 
-log_teste('Inicializar')
+
+
+// Função autoexecutável:
+(function(){
+    log_teste(msg='Nome')
+
+    var isValid = false
+
+    function somar(args){
+        let resultado = 0
+        let x = 0
+
+        // arguments = Retorna os argumentos passados em uma array;
+        while (arguments[x]) {
+            resultado += arguments[x]
+            x++
+        };
+        console.log(resultado)
+    }
+    somar(10, 20, 10, 30)
+})();
