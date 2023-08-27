@@ -11,9 +11,8 @@ let log_teste = function(msg){
     console.log('Testando: ', msg)
 };
 
-
-
 // Função autoexecutável:
+// IIFE:
 (function(){
     log_teste(msg='Nome')
 
@@ -32,3 +31,4 @@ let log_teste = function(msg){
     }
     somar(10, 20, 10, 30)
 })();
+
