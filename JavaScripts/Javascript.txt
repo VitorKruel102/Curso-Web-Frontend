@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+
+                            JavaScript
+
+---------------------------------------------------------------
+Comentários:  //  ou  /* */
+
+Declarações:
+    => Tudo é uma declaração em JavaScript, por exemplo:
+        * Variável
+        * alert()
+        * functions(){}
+
+Literais:
+    => let nome = 'Vitor';      // Literal string
+    => let idade = 22;          // Literal number
+    => let peso = 80.0;         // Literal number
+    => let ehMagro = true;      // Literal boolean
+    => let nomes = [
+        'Vitor', 
+        'Joao'
+    ];                          // Literal array
+    => let dados_usuario = {
+        nome: 'Vitor', 
+        usuario: 'VitorKruel', 
+        senha: '125#Vitor', 
+    };                          // Literal object
+
