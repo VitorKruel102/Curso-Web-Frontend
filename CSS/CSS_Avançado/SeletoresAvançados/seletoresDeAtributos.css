@@ -1,0 +1,69 @@
+a[title] {
+    color: red;
+}
+
+/*  
+    Ele ira pintar todos os A's que possuem
+    um atributo chamado title
+
+    <article>
+        <a></a> ----> Não irá pintar
+        <a title=""></a> Irá pinta esse a
+        <a title=""></a> Irá pinta esse a 
+    </article>
+*/
+
+img[alt="logomarca"] {
+    border-color: red;
+}
+
+/*  
+    Ele ira pintar todos os IMG's que possuem
+    um atributo chamado alt="logomarca"
+
+    <article>
+        <img alt="logomarca"> ----> Irá pintar 
+    </article>
+*/
+
+a[href^="http"] {
+    color: red;
+}
+
+/*  
+    Ele ira pintar todos os A's que o href
+    comece por http
+
+    <article>
+        <a href="..."></a> ----> Não Irá pintar 
+        <a href="http://"></a> Irá pintar 
+    </article>
+*/
+
+img[src$=".png"] {
+    border-color: red;
+}
+
+/*  
+    Ele ira pintar todos os IMG's que o src termine
+    com .png
+
+    <article>
+        <img src="...png" alt="logomarca"> ----> Irá pintar 
+    </article>
+*/
+
+:not(a) {
+    /*Irá pintar todos os elementos menos a tag A*/
+    color: red;
+}
+
+p:not(.destaque) {
+    /*Irá pintar todos os elementos menos a tag P que não tiverem a classe .destaque*/
+    color: red;
+}
+
+img:not([alt]) {
+    /*Irá pintar todos os elementos menos a tag IMG que não tiverem o atributo alt*/
+    display: none;
+}
