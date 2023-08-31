@@ -1,0 +1,31 @@
+article h3 + p {
+    background: red;
+}
+
+/*  
+    Ele ira pintar o p que estiver abaixo do h3
+    em uma mesma hierarquia;
+
+    <article>
+        <h3></h3>
+        <p></p> Só irá pintar esse P
+        <p></p> ---> Não irá pintar
+        <p></p> ---> Não irá pintar
+    </article>
+*/
+
+article h3 ~ p { /* Próximos irmãos*/
+    background: red;
+}
+
+/*  
+    Ele ira pintar todos os p's que estiver abaixo do h3
+    em uma mesma hierarquia;
+
+    <article>
+        <h3></h3>
+        <p></p> Irá pintar esse P
+        <p></p> Irá pintar esse P
+        <p></p> Irá pintar esse P
+    </article>
+*/
