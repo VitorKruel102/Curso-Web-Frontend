@@ -1,0 +1,69 @@
+/* Ou seja, vai pegar a primeira TAG dentro das Div's */
+div :first-child{
+    margin-top: 2rem;
+}
+
+/* Seleciona o p que for o primeiro filho 
+    <div>
+        <p>Paragrafo</p> Seleciona esse elemento
+    </div>
+*/
+p:first-child{
+    color: red;
+}
+
+/* Seleciona o p que for o ultimo filho 
+    <div>
+        <p>Paragrafo</p> 
+        <p>Paragrafo</p> 
+        <p>Paragrafo</p> Seleciona esse elemento
+    </div>
+*/
+p:last-child{
+    color: green;
+}
+
+/* Seleciona o p que for segundo filho 
+    <div>
+        <p>Paragrafo</p> 
+        <p>Paragrafo</p> Seleciona esse elemento 
+        <p>Paragrafo</p>
+    </div>
+*/
+p:nth-child(2){
+    color: green;
+}
+
+/* Seleciona sempre o primeiro p filho
+    <div>
+        <h3>Titulo</h3>
+        <hr>
+        <p>Paragrafo</p> Seleciona esse elemento 
+        <p>Paragrafo</p> 
+        <p>Paragrafo</p>
+    </div>
+*/
+p:first-of-type{
+    /* Primeiro filho p */
+    color: green;
+}
+
+p:last-of-type{
+    /* Ultimo filho p */
+    color: green;
+}
+
+p:nth-of-type(2) {
+    /* Segundo filho p */
+    background: red;
+}
+
+/* Seleciona <li> que forem impares */
+li:nth-child(odd) {
+    background-color: white;
+}
+
+/* Seleciona <li> que forem pares */
+li:nth-child(even) {
+    background-color: #ccc;
+}
