@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        button {
+            background-color: #a7a7a7bb;
+            border: none;
+            padding: 1rem;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            opacity: .5;
+            cursor: auto;
+        }
+
+        a:focus {
+            background: yellow;
+            /* Teste clicando no TAB */
+        }
+    </style>
+</head>
+<body>
+    <button>Vai</button>
+    <button disabled>Vai disabled</button>
+
+    <ul>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, facilis?</p>
+    <p tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, facilis?</p>
+    <!-- O padrão é tabindex="0" -->
+</body>
+</html>
