@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        body {
+            margin-bottom: 100vh;
+        }
+
+        div {
+            outline: 1px solid #888;
+            width: 20rem;
+            margin: .5rem auto;
+        }
+
+        p {
+            width: 50%;
+        }
+
+        .destaque {
+            background: yellow;
+        }
+
+        .div1 .destaque {
+            transform: translate(50px, 10px); /* (X, Y) */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p class="destaque">Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="div3">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p class="destaque">Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
