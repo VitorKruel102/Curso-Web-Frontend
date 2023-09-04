@@ -20,18 +20,18 @@
             const numeroSorteado = parseInt(Math.random * 2); 
 
             // Se o número sorteado for 0, ganha quem escolheu o MENOR NÚMERO
-            // Se o número sorteado for 1, ganha quem escolheu o MAIOR NÚMERO
             if (numeroSorteado === 0) {
                 if (primeiroJogador < segundoJogador) {
                     alert('Jogador 01 ganhou a partida');
                 } else {
                     alert('Jogador 02 ganhou a partida');
-                }
+                }    
+            // Se o número sorteado for 1, ganha quem escolheu o MAIOR NÚMERO
             } else {
-                if (primeiroJogador <.segundoJogador) {
-                    alert('Jogador 01 ganhou a partida');
-                } else {
+                if (primeiroJogador < segundoJogador) {
                     alert('Jogador 02 ganhou a partida');
+                } else {
+                    alert('Jogador 01 ganhou a partida');
                 }
             }
         }
