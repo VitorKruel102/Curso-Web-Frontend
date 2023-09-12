@@ -7,7 +7,17 @@
 
     <style>
         input[type=checkbox] {
-            display: none;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            position: absolute;
+            outline: none;
+        }
+
+        input[type=checkbox]:focus + span{
+            border: 2px solid black;
         }
 
         label span{
