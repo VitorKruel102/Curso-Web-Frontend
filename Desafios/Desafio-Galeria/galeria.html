@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vitor Kruel">
+
+    <title>Galeria</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{ 
+            background-color: #ccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 100vh;
+        }
+        h1 {
+            display: inline-block;
+            margin: 0 auto;
+        }
+        
+        .galeria {
+            display: grid;
+            width: fit-content;
+            grid-template-columns: repeat(4, minmax(250px, 1fr));
+            gap: 5px;
+            
+            padding: 10px;
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.637);
+            background: white;
+            margin: 0 auto;
+            height: fit-content;
+    
+        }
+
+        .imagem {
+            height: fit-content;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .imagem a {
+            text-decoration: none;
+        }
+
+        .imagem img {
+            width: 250px;
+            height: 100%;
+        }
+
+        .imagem p {
+            background: black;
+            transform: translateY(0);
+            padding: 10px;
+            color: white;
+
+            position: absolute;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 12px;
+            width: 100%;
+            bottom: 0;
+            opacity: .5;
+            transition: all .3s ease-in-out;
+            transform: translateY(100%);
+        }
+
+        .imagem:hover p {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .imagem img {
+            transform: scale(1);
+            transition: transform .5s ease-in-out;
+        }
+
+        .imagem:hover img {
+            transform: scale(1.2) rotate(-10deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria</h1>
+    <section class="galeria">
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=1" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=2" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=3" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=4" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=5" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=6" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=7" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+        <div class="imagem">
+            <a href="#">
+                <img src="https://picsum.photos/500/400?random=8" alt="Imagem">
+                <p>Descrição da imagem</p>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
