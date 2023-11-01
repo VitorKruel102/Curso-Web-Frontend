@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    <picture>
+        <source 
+            media="(min-width: 900px)" 
+            srcset="img/1280.jpg 1280w, img/640.jpg 640w, img/480.jpg 480w"
+            sizes="33w"
+            type="image/jpg"
+        >
+        <source 
+            media="(min-width: 600px)" 
+            srcset="img/1280.jpg 1280w, img/640.jpg 640w, img/480.jpg 480w"
+            sizes="50w"
+            type="image/jpg"
+        >
+        <img src="img/1280.jpg" alt="texto alternativo">
+    </picture>
+</body>
+</html>
