@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <video controls autoplay>
+        <source src="./assets/video.mp4" type="video/mp4">
+        <source src="./assets/video.ovg" type="video/ogg">
+        <source src="./assets/video.webm" type="video/webm">
+        <track src="./assets/track.pt.vtt" kind="captions" srclang="pt" label="Português" default> <!-- Legenda -->
+        <track src="./assets/track.en.vtt" kind="captions" srclang="en" label="Ingles"> <!-- Legenda -->
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track -->
+    </video>
+
+    <style>
+        /* CUE = Altera a legenda do vídeo, 
+        tem atributos que não podem ser alterados 
+        como padding por exemplo */
+        ::cue {
+            color: black;
+            font-size: 1.3rem;
+            background-color: yellow;
+        }
+    </style>
+</body>
+</html>
