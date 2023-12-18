@@ -40,7 +40,25 @@ Analisando tipo do dados:
     => typeof nome
     => typeof idade
     => typeof nomes
+    => isNaN('a')  ---> Retorna True se o parametro for um texto ao inves de um número
 
 Transformando strings para number:
     => parseInt(idade);
     => parseFloat(idade);
+
+Atributos do HRML:
+    => onclick() ---> Ativa uma função quando clicar;
+
+Retornar valores do html:
+    => innerHTML ---> Aceita tags html;
+    => textContent ---> Não aceita tags html;
+
+Tratamento de Exceções:
+    => try {
+        ...
+    } catch (e) {
+        ...
+    }
+
+Erro Personalizado:
+    throw new Error('Digte somente números');
