@@ -42,3 +42,20 @@ switch (key) {
         break;
 }
 
+// AULA 375 - WHILE
+let index = 0;
+while (index < 10){
+    console.log('OLA');
+    index++;
+}
+
+do {
+    console.log('EXECUTA PELO MENOS UMA VEZ')
+    index++;
+} while (index > 10)
+
+// AULA 378 - FOR
+const LISTA = [1, 2, 3, 4, 5]
+for (let i=0; i < LISTA.length; i++) {
+    console.log(LISTA[i]);
+}
